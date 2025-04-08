@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Olumide Buari | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="fade-in">
+  <div id="loader-wrapper"><div class="loader"></div></div>
+  <nav class="navbar">
+    <div class="container nav-flex">
+      <h1 class="nav-logo">Olumide</h1>
+      <button class="menu-toggle" id="menuToggle">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <header class="main-header">
+    <div class="container header-flex">
+      <div class="hero-text">
+        <h1>Olumide Buari</h1>
+        <p>Tech enthusiast learning to build ethical, scalable software solutions for African communities and beyond.</p>
+        <a href="#projects" class="btn">Explore My Work</a>
+      </div>
+      <div class="hero-img">
+        <img src="images/olumide-profile.jpg" alt="Olumide Buari profile image" />
+      </div>
+    </div>
+  </header>
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I’m a self-taught developer transitioning into software development through platforms like Coursera, FreeCodeCamp, CS50x by Harvard, The Odin Project, and Udemy.</p>
+    </div>
+  </section>
+  <section id="projects" class="section section-light">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-card">
+        <h3>Weather App</h3>
+        <p>Check real-time weather data for any city using a public API.</p>
+        <p><strong>Skills:</strong> API integration, JavaScript, responsive design</p>
+        <a href="#">GitHub</a> | <a href="#">Live Demo</a>
+      </div>
+      <div class="project-card">
+        <h3>To-Do List App</h3>
+        <p>Organize your tasks and manage them easily with localStorage.</p>
+        <p><strong>Skills:</strong> JavaScript, DOM manipulation, UX</p>
+        <a href="#">GitHub</a> | <a href="#">Live Demo</a>
+      </div>
+    </div>
+  </section>
+  <section id="skills" class="section">
+    <div class="container">
+      <h2>Skills & Tools</h2>
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Git & GitHub</li>
+        <li>Python Basics</li>
+        <li>React (Beginner)</li>
+        <li>Figma</li>
+      </ul>
+    </div>
+  </section>
+  <section id="contact" class="section section-light">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>Email: <a href="mailto:olumide@example.com">olumide@example.com</a></p>
+      <p>GitHub: <a href="https://github.com/olumide">github.com/olumide</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/olumide">linkedin.com/in/olumide</a></p>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2025 Olumide Buari. Designed with purpose.</p>
+  </footer>
+  <button id="backToTop">⬆️</button>
+  <div id="assistant">
+    <button id="assistant-toggle">💬</button>
+    <div class="assistant-box" id="assistant-box">
+      <div id="assistant-message" class="assistant-message">
+        <p class="typing">Hi there! I’m Olumide’s Portfolio Assistant. What would you like to know?</p>
+      </div>
+      <div class="assistant-buttons">
+        <button onclick="showProjects()">📁 Projects</button>
+        <button onclick="showSkills()">🛠️ Skills</button>
+        <button onclick="showContact()">📬 Contact</button>
+      </div>
+    </div>
+  </div>
+  <div id="particles-js"></div>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
